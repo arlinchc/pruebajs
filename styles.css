@@ -1,0 +1,22 @@
+.task-item {
+    padding: 100px;
+    border: 1px solid #b2f338;
+    border-radius: 100px;
+    background-color: #e9e9f3;
+}
+
+body, html {
+    height: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(19, 8, 167);
+    background-color: rgb(113, 235, 133);
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+  

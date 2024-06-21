@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aplicación Sencilla con JavaScript y Bootstrap</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css  ">
+
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Lista de Tareas</h1>
+    <form id="taskForm" class="form-inline mb-4">
+        <div class="form-group mr-2">
+            <label for="taskInput" class="sr-only">Nueva Tarea:</label>
+            <input type="text" class="form-control" id="taskInput" placeholder="Escribe una nueva tarea" required>
+        </div>
+        <button type="submit" class="btn btn-primary" id="agregar">Agregar</button>
+    </form>
+    <table class="table table-stripped" style="background-color: rgb(172, 209, 233);">
+      <thead> 
+        <tr>
+            <th># Tarea</th>
+            <th>Tarea</th>
+            <th>Acciones</th>
+        </tr>
+       
+      </thead>
+      <tbody id="taskList">
+       
+      </tbody>
+
+    </table>
+</div>
+
+<script src="scriptt.js">    
+</script>
+
+</body>
+
+</html>
